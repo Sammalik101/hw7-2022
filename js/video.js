@@ -11,7 +11,7 @@ window.addEventListener("load", function() {
 
 document.getElementById("play").addEventListener("click", function(){ 
 	video.play();
-	document.getElementById("volume").innerHTML = document.getElementById("slider").value;
+	document.getElementById("volume").innerHTML = document.getElementById("slider").value + "%";
 });
 
 document.getElementById("pause").addEventListener("click", function(){ 
